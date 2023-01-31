@@ -1,0 +1,46 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.primary-color {
+    background-color: rgb(38, 70, 83);
+}
+
+.navbar {
+    top: 42px;
+}
+
+.btn-1 {
+    background-color: rgb(231, 111, 81);
+    width: 90px;
+    height: 45px;
+}
+
+.btn-2 {
+    background-color: rgb(231, 111, 81);
+    width: 145px;
+    height: 45px;
+}
+
+.nav-item a:hover {
+    color: rgb(231, 111, 81);
+}
+
+.header-container {
+    padding-top: 100px;
+}
+
+.text-color {
+    color: rgb(231, 111, 81);
+}
+
+.bar {
+    background-color: rgb(231, 111, 81);
+    width: 50px;
+    height: 2px;
+}
+
+.fetured-bike {
+    width: 350px;
+    height: 300px;
+}
