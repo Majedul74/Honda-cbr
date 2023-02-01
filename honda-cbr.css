@@ -22,6 +22,12 @@ body {
     height: 45px;
 }
 
+.btn-3 {
+    border-color: rgb(231, 111, 81);
+    width: 160px;
+    padding: 15px;
+}
+
 .nav-item a:hover {
     color: rgb(231, 111, 81);
 }
@@ -43,4 +49,39 @@ body {
 .fetured-bike {
     width: 350px;
     height: 300px;
+}
+
+.card-body a:hover {
+    background-color: rgb(231, 111, 81);
+    color: white;
+}
+
+.user-image {
+    border-radius: 130px;
+    height: 160px;
+    width: 160px;
+}
+
+.faq-img {
+    width: 35%;
+}
+
+.accor-container {
+    width: 60%;
+    padding-left: 50px;
+}
+
+.text-with-bar {
+    position: relative;
+}
+
+.text-with-bar::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 2px;
+    background: rgb(231, 111, 81);
 }
